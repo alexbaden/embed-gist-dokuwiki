@@ -2,8 +2,13 @@ gist Plugin for DokuWiki
 
 Creates a tag for embedding gists in dokuwiki pages.
 
+WARNING: This plugin takes user input and inserts it into a <script> tag. While
+user input is sanitized (using htmlentities and htmlspecialchars), it may still 
+be possible for a nefarious user to exploit this code in a production environment. 
+This plugin should probably not be used with non-trusted/anonymous users. 
+
 All documentation for this plugin can be found at
-http://openconnecto.me
+https://github.com/alexbaden/embed-gist-dokuwiki
 
 If you install this plugin manually, make sure it is installed in
 lib/plugins/gist/ - if the folder is called different it

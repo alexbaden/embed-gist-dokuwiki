@@ -4,4 +4,4 @@ email  alex.baden@jhu.edu
 date   2015-01-24
 name   gist plugin
 desc   Creates a tag for embedding gists in dokuwiki pages.
-url    http://openconnecto.me
+url    https://github.com/alexbaden/embed-gist-dokuwiki
