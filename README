@@ -2,6 +2,9 @@ gist Plugin for DokuWiki
 
 Creates a tag for embedding gists in dokuwiki pages.
 
+Usage: [gist user/id] (the user and id can be found from the gist URL, e.g.:
+https://gist.github.com/user/id )
+
 WARNING: This plugin takes user input and inserts it into a <script> tag. While
 user input is sanitized (using htmlentities and htmlspecialchars), it may still 
 be possible for a nefarious user to exploit this code in a production environment. 
